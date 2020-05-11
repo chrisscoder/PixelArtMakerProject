@@ -1,0 +1,66 @@
+html, 
+body {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(135deg, orange, orange 60%, cyan);
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+h2:first-of-type {
+    font-family: monospace;
+    color: black;
+    font-size: 25px;
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 3.5px solid black;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+p {
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0.2em;
+}
+
+input[type=number] {
+    width: 6em;
+}
+input[type=submit]:active {
+    background-color: rgba(41, 28, 185, 0.5);
+    color: #000;
+}
